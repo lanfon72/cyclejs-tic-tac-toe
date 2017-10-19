@@ -1,0 +1,24 @@
+{
+  "name": "cycle-t3",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cycle/dom": "18.3.0",
+    "@cycle/most-run": "7.2.0",
+    "cycle-onionify": "^4.0.0",
+    "cycle-scripts": ">=2.0.0",
+    "most": "1.7.2",
+    "snabbdom-jsx": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cycle-scripts start",
+    "test": "cycle-scripts test",
+    "build": "cycle-scripts build",
+    "eject": "cycle-scripts eject"
+  },
+  "cca": {
+    "language": "javascript",
+    "streamLib": "most"
+  }
+}
